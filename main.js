@@ -1,0 +1,38 @@
+//menghutung luas segitiga
+const setengah = 0.5;
+let alas = 4,
+    tinggi =3;
+
+console.log(setengah * alas * tinggi);
+
+//menghitung luas lingkaran 
+const pi = 3.14;
+let jariJAri = 14;
+
+hasil = jariJAri * jariJAri;
+
+console.log(pi * hasil);
+
+// membuat variabel dengan tipe data Object
+let aboutMe = {
+    namaLengkap : `Fahrul Bilad`,
+    namaPanggilan : `Fahrul`,
+    jenisKelamin : `Laki-Laki`,
+    Alamat : {
+        dukuh : `Jetis`,
+        rtRw : `Rt 001/Rw 001`,
+        kelurahan : `Wonorejo`,
+        kecamatan : `Polokarto`,
+        kabupaten : `Sukoharjo`
+    },
+    pekerjaan : `Mahasiswa`,
+    hobi : `ngoding`
+};
+console.log(aboutMe);
+
+//variabel dengan tipe data Array menggunakan forEach.
+const bahasaPemrograman = [`PHP`, `Javascript`, `C`, `C++`, `Java`, `Python`]
+
+bahasaPemrograman.forEach(function(item){
+    console.log(item)
+})
