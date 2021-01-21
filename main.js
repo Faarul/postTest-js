@@ -1,17 +1,17 @@
 //menghutung luas segitiga
 const setengah = 0.5;
-let alas = 4,
-    tinggi =3;
+let alas = prompt(`masukan Alas :`);
+let tinggi = prompt(`masukan Tinggi :`);
 
-console.log(setengah * alas * tinggi);
+hasil = setengah * alas * tinggi;
+document.write(hasil)
+
 
 //menghitung luas lingkaran 
 const pi = 3.14;
-let jariJAri = 14;
-
-hasil = jariJAri * jariJAri;
-
-console.log(pi * hasil);
+let jariJAri = prompt(`masukan Jari-Jari :`);
+hasil = jariJAri * jariJAri * pi;
+document.write(hasil)
 
 // membuat variabel dengan tipe data Object
 let aboutMe = {
